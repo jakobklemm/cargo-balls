@@ -4,8 +4,9 @@ the only correct way to visualize anything.
 
 ![cargo-balls example](assets/example.png)
 
+## Example usage
+
 ```rust
-// benches/example.rs
 use cargo_balls::balls_main;
 use std::collections::{BTreeMap, HashMap};
 use std::hint::black_box;
@@ -34,6 +35,8 @@ balls_main!(hash_map, btree_map);
 name = "example"
 harness = false
 ```
+
+## Configuration
 
 Relative mode: fastest ball is moving in 1 second (can be overwritten), all others scaled relative to it.
 Absolute mode: all balls move at the actual speeds of the functions they represent.
