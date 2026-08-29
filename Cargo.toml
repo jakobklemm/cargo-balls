@@ -1,0 +1,19 @@
+[package]
+name = "cargo-balls"
+version = "0.1.1"
+edition = "2024"
+
+authors = ["Jakob Klemm <git@jeykey.net>"]
+
+license = "Apache-2.0 OR MIT"
+repository = "https://github.com/jakobklemm/cargo-balls"
+readme = "README.md"
+
+description = "the correct way to visualize anything"
+keywords = ["benchmark"]
+
+[dependencies]
+
+[[bench]]
+name = "sample"
+harness = false
