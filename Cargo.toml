@@ -12,8 +12,10 @@ readme = "README.md"
 description = "the correct way to visualize anything"
 keywords = ["benchmark"]
 
+include = ["Cargo.toml", "CHANGELOG.md", "README.md", "LICENSE-MIT", "LICENSE-APACHE", "src/**/*.rs"]
+
 [dependencies]
 
 [[bench]]
-name = "sample"
+name = "example"
 harness = false
